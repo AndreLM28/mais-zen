@@ -8,15 +8,18 @@
    text-decoration: none; 
 }
 
+
 body {
    height: 100vh; 
 }
 /* Main - Neuro e Biofilia */
 /* SECTION-TITLE */
 .main-content-biofilia-title{
-   background-color: rgb(194, 209, 184);
+   /* background-color: rgb(194, 209, 184); */
+   background-color: #bca0dd;
    display: flex;
    width: 1485;
+   background-color: rgb(188, 160, 221);
 }
 /* TITlE */
 .biofilia-box-title{
@@ -132,50 +135,261 @@ body {
 
 
 /* SECTION Missão e Valores */
+
 .main-content-missao-valores {
-   background-color: #D9D9D9;
+   /* background-color: #D9D9D9;
    display: flex;
+   align-items: center;
+   justify-content: center; */
+
+      
+      width: 100%;
+      min-height: 100vh;
+      padding: 2vw 2vh;
+      box-sizing: border-box;
+      background-position: 50% 50%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-blend-mode: soft-light;
+      /* background-color: #FFF9; */
+      background-color: #D9D9D9;
+      display:flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      flex-grow: 1;
+      justify-content: center;
+      align-items: center;
+
+}
+/* NAV-BUTTON */
+.missao-valores-nav {
+   display: flex;
+   flex-direction: column;
+   flex-wrap: nowrap;
+   align-items: stretch;
+   justify-content: flex-start;
+   align-content: center;
+   height: fit-content;
+   position: sticky;
+   top: 150px;
+   background: #FFFD;
+   padding: 10px;
+   }
+
+/*span botoes  */
+.missao-valores-nav span{
+   flex-grow: 1;
+   text-align: center;
+}  
+
+/* botoes */
+
+/* button:hover{
+
+      background-color:#bca0dd;
+      scale: 1.076;
+      transition: all 0.4s ease-in-out;
+      color: whitesmoke;
+}     */
+
+
+
+.quem_somos-btn {
+   cursor: pointer;
+   background: #E6E7EE;
+   color: #00457A;
+   border: none;
+   padding: 10px;
+   margin: 0 0 1vh 0;
+   text-align: justify;
+   text-transform: uppercase;
+   font-size: 20px;
+   display: inline-flex;
+   width: 220px;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   align-items: center;
+   justify-content: center;
+  
+}
+.quem_somos-btn i{
+   display: inline-block;
+   width: 50px;
+   height: 50px;
+   margin: 0 5px 0 0;
+   vertical-align: middle;
+   background-image: url('assets/missao3.png');
+   background-repeat: no-repeat;
+   background-size: 50px auto;
+}  
+
+.missao-btn{
+   cursor: pointer;
+   background: #E6E7EE;
+   color: #00457A;
+   border: none;
+   padding: 10px;
+   margin: 0 0 1vh 0;
+   text-align: justify;
+   text-transform: uppercase;
+   font-size: 20px;
+   display: inline-flex;
+   width: 220px;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   align-items: center;
+   justify-content: center;
+ }
+.missao-btn i{
+   display: inline-block;
+   width: 50px;
+   height: 50px;
+   margin: 0 5px 0 0;
+   vertical-align: middle;
+   background-image: url('assets/missao7.png');
+   background-repeat: no-repeat;
+   background-size: 50px auto;
+}  
+
+.visao-btn{
+   cursor: pointer;
+   background: #E6E7EE;
+   color: #00457A;
+   border: none;
+   padding: 10px;
+   margin: 0 0 1vh 0;
+   text-align: justify;
+   text-transform: uppercase;
+   font-size: 20px;
+   display: inline-flex;
+   width: 220px;
+   flex-direction: row;
+   flex-wrap: nowrap;
    align-items: center;
    justify-content: center;
 }
 
-/* missão */
-.missao-box{
+.visao-btn i{
+   display: inline-block;
+   width: 50px;
+   height: 50px;
+   margin: 0 5px 0 0;
+   vertical-align: middle;
+   background-image: url('assets/missao1.png');
+   background-repeat: no-repeat;
+   background-size: 50px auto;
+} 
+.valores-btn{
+   cursor: pointer;
+   background: #E6E7EE;
+   color: #00457A;
+   border: none;
+   padding: 10px;
+   margin: 0 0 1vh 0;
+   text-align: justify;
+   text-transform: uppercase;
+   font-size: 20px;
+   display: inline-flex;
+   width: 220px;
+   flex-direction: row;
+   flex-wrap: nowrap;
+   align-items: center;
+   justify-content: center;
+}
+
+.valores-btn i{
+   display: inline-block;
+   width: 50px;
+   height: 50px;
+   margin: 0 5px 0 0;
+   vertical-align: middle;
+   background-image: url('assets/missao2.png');
+   background-repeat: no-repeat;
+   background-size: 50px auto;
+} 
+
+/* div */
+.main-content-missao-valores h2{
+   margin: 0 0 20px 0;
+   font-size: 40px;
+   font-family: "Titillium Web";
+ }
+
+.main-content-missao-valores p{
+   color: #00457A;
+   font-size: 30px;
+   line-height: 2;
+   font-family: "Roboto";
+      
+ }
+
+/* div quem_somos*/
+.quem_somos-box{
    display: block;
-}
-.missao-box-title {
-   margin: 10px 100px 50px 50px;
-   text-align: center;
-   font-size: 55px;
-   font-weight:900;
-}
-
-.missao-box-text{
-   margin: 100px;
-}
-
-.missao-text {
-   text-align: center;
-   font-size: 35px;
-   font-weight:900;
-   margin: 10px 90px;
+   box-sizing: border-box;
+   background-position: 50% 50%;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-blend-mode: soft-light;
+   background-color: #FFFD;
+   color: #00457A;
+   flex-grow: 1;
+   margin: 0 3vw;
+   padding: 10px 50px;
+   font-size: 16px;
+   line-height: 2;
+   font-family: "Roboto";
+   
 }
 
-/* valores */
-.valores-box-title {
-   margin: 10px 100px 50px 50px;
-   text-align: center;
-   font-size: 55px;
-   font-weight:900;
+/* div missao */
+.missao-box{
+   display: none;
+   box-sizing: border-box;
+   background-position: 50% 50%;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-blend-mode: soft-light;
+   background-color: #FFFD;
+   color: #00457A;
+   flex-grow: 1;
+   margin: 0 3vw;
+   padding: 10px 50px;
+   font-size: 16px;
+   line-height: 2;
+   font-family: "Roboto";
 }
-
-.valores-box-text{
-   margin: 100px;
+/* div visao */
+.visao-box{
+   display: none;
+   box-sizing: border-box;
+   background-position: 50% 50%;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-blend-mode: soft-light;
+   background-color: #FFFD;
+   color: #00457A;
+   flex-grow: 1;
+   margin: 0 3vw;
+   padding: 10px 50px;
+   font-size: 16px;
+   line-height: 2;
+   font-family: "Roboto";
 }
-
-.valores-text {
-   text-align: center;
-   font-size: 35px;
-   font-weight:900;
-   margin: 10px 90px;
+/* div valores */
+.valores-box{
+   display: none;
+   box-sizing: border-box;
+   background-position: 50% 50%;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-blend-mode: soft-light;
+   background-color: #FFFD;
+   color: #00457A;
+   flex-grow: 1;
+   margin: 0 3vw;
+   padding: 10px 50px;
+   font-size: 16px;
+   line-height: 2;
+   font-family: "Roboto";
 }
