@@ -329,7 +329,7 @@ body {
 
 /* div quem_somos*/
 .quem_somos-box{
-   display: block;
+   display: none;
    box-sizing: border-box;
    background-position: 50% 50%;
    background-repeat: no-repeat;
@@ -344,56 +344,4 @@ body {
    line-height: 2;
    font-family: "Roboto";
    
-}
-
-/* div missao */
-.missao-box{
-   display: none;
-   box-sizing: border-box;
-   background-position: 50% 50%;
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-blend-mode: soft-light;
-   background-color: #FFFD;
-   color: #00457A;
-   flex-grow: 1;
-   margin: 0 3vw;
-   padding: 10px 50px;
-   font-size: 16px;
-   line-height: 2;
-   font-family: "Roboto";
-}
-/* div visao */
-.visao-box{
-   display: none;
-   box-sizing: border-box;
-   background-position: 50% 50%;
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-blend-mode: soft-light;
-   background-color: #FFFD;
-   color: #00457A;
-   flex-grow: 1;
-   margin: 0 3vw;
-   padding: 10px 50px;
-   font-size: 16px;
-   line-height: 2;
-   font-family: "Roboto";
-}
-/* div valores */
-.valores-box{
-   display: none;
-   box-sizing: border-box;
-   background-position: 50% 50%;
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-blend-mode: soft-light;
-   background-color: #FFFD;
-   color: #00457A;
-   flex-grow: 1;
-   margin: 0 3vw;
-   padding: 10px 50px;
-   font-size: 16px;
-   line-height: 2;
-   font-family: "Roboto";
 }
